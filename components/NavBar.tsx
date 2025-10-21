@@ -3,7 +3,7 @@ import { useState, useCallback, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import Link from "next/link";
 import Image from "next/image";
-import logo from "Assets/imgbin_computer-icons-ice-cube-png.png";
+import logo from "Assets/bigt logo.png";
 
 const menuVariants = {
   closed: {
@@ -64,7 +64,7 @@ export default function NavBar() {
     { href: "/", label: "Home" },
     { href: "/projects", label: "Projects" },
     {
-      href: "https://drive.google.com/file/d/1bI0FEt7JVKQcfUBECfZ_l6TaMTXQqTgr/view?usp=sharing",
+      href: "https://drive.google.com/file/d/1gBgO7lOi9zBF-3ci1Ongs_0vi_baGpEc/view?usp=sharing",
       label: "Resume",
       external: true,
     },
@@ -89,8 +89,8 @@ export default function NavBar() {
             <Link href="/" className="flex-shrink-0">
               <Image
                 src={logo}
-                alt="logo ice"
-                className="invert w-8 h-8 md:w-10 md:h-10"
+                alt="bigt logo"
+                className="w-8 h-8 md:w-10 md:h-10"
                 width={40}
                 height={40}
                 priority

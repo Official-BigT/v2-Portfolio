@@ -44,26 +44,46 @@ const Header = ({}: Props) => {
         <SocialIcon
           network="x"
           bgColor="transparent"
+          url="https://x.com/un_kn0wnt?s=21"
           fgColor="#1DA1F2"
-          url="https://twitter.com/DEJIxICE"
           className="h-2 w-2"
         />
         <SocialIcon
           network="linkedin"
           bgColor="transparent"
+          url="#"
           fgColor="#0077b5"
-          url="https://www.linkedin.com/in/ayodeji-atanda/"
+          className="h-2 w-2"
+        />
+        <SocialIcon
+          network="github"
+          bgColor="transparent"
+          url="https://github.com/Official-BigT/"
+          fgColor="#0077b5"
           className="h-2 w-2"
         />
         <SocialIcon
           network="instagram"
           bgColor="transparent"
+          url="https://www.instagram.com/un_kn0wnt?igsh=MW5pMW1xdzZuaXR2dQ%3D%3D&utm_source=qr"
           fgColor=" #FFC0CB"
-          url="https://instagram.com/deji_ice?igshid=NTc4MTIwNjQ2YQ=="
+          className="h-2 w-2"
+        />
+        <SocialIcon
+          network="snapchat"
+          bgColor="transparent"
+          fgColor=" #FFC0CB"
+          url="https://snapchat.com/t/Q2LH64nT"
+          className="h-2 w-2"
+        />
+        <SocialIcon
+          network="whatsapp"
+          bgColor="transparent"
+          fgColor="#25D366"
+          url="https://wa.link/p8gg7u"
           className="h-2 w-2"
         />
       </motion.div>
-      
     </header>
   );
 };

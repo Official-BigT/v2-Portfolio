@@ -1,9 +1,11 @@
 // @ts-nocheck
 import React from "react";
+import { render } from "react-dom";
 import {
   SiNextdotjs,
   SiTypescript,
   SiTailwindcss,
+  SiBootstrap,
   SiFramer,
   SiReact,
   SiJavascript,
@@ -29,14 +31,24 @@ import {
   SiChakraui,
   SiShadcnui,
   SiRedux,
+  SiHtml5,
+  SiLaravel,
+  SiRender,
 } from "react-icons/si";
 
 const toolConfig = {
   nextjs: { Icon: SiNextdotjs, color: "bg-black", label: "Next.js" },
+  bootstrap: { Icon: SiBootstrap, color: "bg-black", label: "bootstrap" },
+  html5: { Icon: SiHtml5, color: "bg-black", label: "html5" },
   typescript: { Icon: SiTypescript, color: "bg-blue-600", label: "TypeScript" },
   tailwindcss: {
     Icon: SiTailwindcss,
     color: "bg-cyan-500",
+    label: "Tailwind CSS",
+  },
+  laravel: {
+    Icon: SiLaravel,
+    color: "bg-red-500",
     label: "Tailwind CSS",
   },
   "framer motion": {
@@ -65,6 +77,7 @@ const toolConfig = {
   css: { Icon: SiCss3, color: "bg-blue-500", label: "CSS3" },
   netlify: { Icon: SiNetlify, color: "bg-teal-500", label: "Netlify" },
   vercel: { Icon: SiVercel, color: "bg-black", label: "Vercel" },
+  render: { Icon: SiRender, color: "bg-black", label: "Render" },
   docker: { Icon: SiDocker, color: "bg-blue-600", label: "Docker" },
   expressjs: { Icon: SiExpress, color: "bg-gray-700", label: "Express.js" },
   vite: { Icon: SiVite, color: "bg-purple-500", label: "Vite" },

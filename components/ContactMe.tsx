@@ -8,7 +8,12 @@ type Props = {};
 
 const ContactMe = (props: Props) => {
   const handleClick = () => {
-    window.location.href = "mailto:ayodejiatanda1@gmail.com";
+    const subject = encodeURIComponent("Hey Triumph, I saw your portfolio!");
+    const body = encodeURIComponent(
+      "Hi Triumph,\n\nI came across your portfolio and wanted to connect with you about a potential opportunity.\n\nBest regards,\n[Your Name]"
+    );
+
+    window.location.href = `mailto:triumphanyanga@gmail.com?subject=${subject}&body=${body}`;
   };
   return (
     <footer
@@ -50,7 +55,7 @@ const ContactMe = (props: Props) => {
           network="linkedin"
           bgColor="transparent"
           fgColor="#0077b5"
-          url=""
+          url="#"
           target="_blank"
           className="h-2 w-2 filter grayscale  hover:filter-none hover:animate-pulse transition duration-200 ease-in-out"
         />
@@ -83,6 +88,14 @@ const ContactMe = (props: Props) => {
           bgColor="transparent"
           fgColor="#eded0bff"
           url="https://snapchat.com/t/Q2LH64nT"
+          target="_blank"
+          className="h-2 w-2 filter grayscale  hover:filter-none hover:animate-pulse transition duration-200 ease-in-out"
+        />
+        <SocialIcon
+          network="whatsapp"
+          bgColor="transparent"
+          fgColor="#25D366"
+          url="https://wa.link/p8gg7u"
           target="_blank"
           className="h-2 w-2 filter grayscale  hover:filter-none hover:animate-pulse transition duration-200 ease-in-out"
         />

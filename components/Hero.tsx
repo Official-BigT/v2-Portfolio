@@ -10,10 +10,10 @@ const Hero = memo(() => {
       "Frontend Engineer.",
       "Backend Developer.",
       "Full-stack Developer.",
-      // "Graphic Designer.",
+      "Street-Merch Designer."
     ],
     loop: true,
-    delaySpeed: 3000,
+    delaySpeed: 2000,
   });
 
   return (

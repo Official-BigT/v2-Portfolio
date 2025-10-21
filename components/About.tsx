@@ -5,21 +5,25 @@ import Image from "next/image";
 import { memo } from "react";
 
 const technologies = [
-  "HTML",
+  "HTML5 & CSS",
   "Javascript",
   "Typescript",
   "React",
   "Tailwind CSS",
+  "Bootstrap CSS",
   "NextJS",
   "Express.js",
   "Node.js",
+  "Nest.js",
   "MongoDB",
   "POSTMAN",
   "Vercel",
   "Netlify",
+  "Render",
   "MS. Azure",
   "AWS",
   "Canva",
+  "Adobe Illustrator",
 ];
 
 const About = memo(() => {
@@ -52,10 +56,11 @@ const About = memo(() => {
           className="flex-shrink-0"
         >
           <Image
-            src="https://res.cloudinary.com/dznd7vzlb/image/upload/v1757474786/BigT_b4grw8.jpg"
+            src="https://res.cloudinary.com/dznd7vzlb/image/upload/v1757474790/bigme_basypp.jpg"
+            // src="https://res.cloudinary.com/dznd7vzlb/image/upload/v1757474786/BigT_b4grw8.jpg"
             alt="Triumph Anya-Nga"
-            height={300}
-            width={300}
+            height={285}
+            width={375}
             priority
             className="border-dashed border-2 border-gray-400 object-cover 
             rounded-lg shadow-lg transition-transform duration-300 
@@ -69,13 +74,13 @@ const About = memo(() => {
               Before diving into tech fully, I was an internet of things
               enthusiast with drive to always use the internet, which sparked my
               love for everything on the web and how it works. Now, I blend that
-              drive to building aesthetic, clean and seemless UIs, digital
+              drive to building aesthetic, clean and seamless UIs, digital
               products and full on websites for people to use and enjoy.
             </p>
             <p className="leading-relaxed">
-              I’m always curious and growing — currently adding Motion and
-              Animation to my stack for frontend development while staying
-              active in the backend dev space with Express.js and Nest.js. AI
+              I’m always curious and growing — currently adding Framer Motion
+              and Animation to my stack for frontend development while staying
+              active in the backend dev space with Express.js and Nest.js, AI
               prompt engineering and new technologies also keeps me sharp and
               grounded too.
             </p>
