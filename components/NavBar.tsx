@@ -64,7 +64,7 @@ export default function NavBar() {
     { href: "/", label: "Home" },
     { href: "/projects", label: "Projects" },
     {
-      href: "https://drive.google.com/file/d/1gBgO7lOi9zBF-3ci1Ongs_0vi_baGpEc/view?usp=sharing",
+      href: "https://drive.google.com/file/d/1B3qey9NdGZJKD3HWdsN8XLAIzh9aSwlF/view?usp=sharing",
       label: "Resume",
       external: true,
     },
