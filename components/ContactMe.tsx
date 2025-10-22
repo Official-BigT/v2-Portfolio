@@ -27,9 +27,7 @@ const ContactMe = (props: Props) => {
         Get In Touch
       </h3>
       <div
-        className="lg:space-y-20 pb-28 lg:pb-10 xl:space-y-1 flex flex-col items-center justify-start md:max-w-2xl lg:max-w-3xl max-w-3xl tracking-wide text-center 
-
-       font-normal xl:text "
+        className="lg:space-y-20 pb-40 lg:pb-10 xl:space-y-1 flex flex-col items-center justify-start md:max-w-2xl lg:max-w-3xl max-w-3xl tracking-wide text-center font-normal xl:text"
       >
         <p className="text-sm my-3 xl:mb-16 xl:text-xl  p-5 text-start md:text-center md:text-xl lg:text-3xl ">
           Ready to take your web projects to the next{" "}
