@@ -95,7 +95,25 @@ export const projects: Project[] = [
     githubLink: "https://github.com/Official-BigT/Furnisphere",
     tools: ["NextJS", "TypeScript", "TailwindCSS", "Framer Motion"],
   },
-  // 4 v1-Portfolio
+  // 4 Forge Gym
+  {
+    id: crypto.randomUUID(),
+    projectName: "Forge Gym",
+    projectImage:
+      "https://res.cloudinary.com/dznd7vzlb/image/upload/v1764715807/forge-gym_z34ieg.png",
+    projectDescription:
+      "Forge Gym is a comprehensive gym management system designed to facilitate member management, class scheduling, check-ins, subscription handling, and administrative oversight. The frontend is a modern, fully scaffolded React/TypeScript application with an energetic yellow/charcoal theme, featuring smooth animations and a responsive design.",
+    demoLink: "https://forgegym.vercel.app/",
+    githubLink: "https://github.com/Official-BigT/Forge-gym-Frontend/",
+    tools: [
+      "ReactJS",
+      "TypeScript",
+      "TailwindCSS",
+      "Framer Motion",
+      "Cloudinary",
+    ],
+  },
+  // 5 v1-Portfolio
   {
     id: crypto.randomUUID(),
     projectName: "v1-Portfolio",
@@ -109,27 +127,7 @@ export const projects: Project[] = [
     tools: ["Html5", "TailwindCSS", "Laravel", "Bootstrap"],
   },
 
-
   // Update the following projects when there's more
-  // // 5
-  // {
-  //   id: crypto.randomUUID(),
-  //   projectName: "Transparent Governance Foundation",
-  //   projectImage:
-  //     "https://res.cloudinary.com/dhvwthnzq/image/upload/v1739445608/mines/38ffadab-3a96-4aa2-890c-5a0f0b8ac4e3.png",
-  //   projectDescription:
-  //     "Transparent Governance Foundation is a web application built to promote transparency and accountability in governance. Utilizing modern web technologies to create an interactive and informative platform for civic engagement and governmental oversight.",
-  //   demoLink: "https://www.transparencegovfoundation.org/",
-  //   githubLink: "https://github.com/deji-ice/TransparentGovernanceFoundation",
-  //   tools: [
-  //     "NextJS",
-  //     "TypeScript",
-  //     "TailwindCSS",
-  //     "Framer Motion",
-  //     "Cloudinary",
-  //     "Paystack",
-  //   ],
-  // },
   // // 6
   // {
   //   id: crypto.randomUUID(),
