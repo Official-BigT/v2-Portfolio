@@ -106,7 +106,7 @@ export const projects: Project[] = [
     demoLink: "https://forgegym.vercel.app/",
     githubLink: "https://github.com/Official-BigT/Forge-gym-Frontend/",
     tools: [
-      "ReactJS",
+      "React",
       "TypeScript",
       "TailwindCSS",
       "Framer Motion",
