@@ -95,7 +95,18 @@ export const projects: Project[] = [
     githubLink: "https://github.com/Official-BigT/Furnisphere",
     tools: ["NextJS", "TypeScript", "TailwindCSS", "Framer Motion"],
   },
-  // 4 Forge Gym
+  // 4 SafeDep Package Insights
+  {
+    id: crypto.randomUUID(),
+    projectName: "SafeDep Package Insights",
+    projectImage:
+      "https://res.cloudinary.com/dznd7vzlb/image/upload/v1768005978/Inter_Task_aiutrd.png",
+    projectDescription: `SafeDep Package Insights is a Next.js 16 application that displays security insights and analysis for open source packages using the SafeDep API. The application provides detailed information about package vulnerabilities, licenses, versions, and security metrics.`,
+    demoLink: "https://safedep-package-insights.vercel.app/",
+    githubLink: "https://github.com/Official-BigT/SafeDep",
+    tools: ["NextJS", "React", "TypeScript", "TailwindCSS"],
+  },
+  // 5 Forge Gym
   {
     id: crypto.randomUUID(),
     projectName: "Forge Gym",
@@ -113,7 +124,7 @@ export const projects: Project[] = [
       "Cloudinary",
     ],
   },
-  // 5 v1-Portfolio
+  // 6 v1-Portfolio
   {
     id: crypto.randomUUID(),
     projectName: "v1-Portfolio",
