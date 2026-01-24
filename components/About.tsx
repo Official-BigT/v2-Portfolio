@@ -9,6 +9,10 @@ const technologies = [
   "Javascript",
   "Typescript",
   "React",
+  "React Native",
+  "Expo",
+  "NativeWind",
+  "React Navigation",
   "Tailwind CSS",
   "Bootstrap CSS",
   "NextJS",
@@ -16,6 +20,8 @@ const technologies = [
   "Node.js",
   "Nest.js",
   "MongoDB",
+  "PostgreSQL",
+  "Firebase",
   "POSTMAN",
   "Vercel",
   "Netlify",
@@ -23,6 +29,7 @@ const technologies = [
   "MS. Azure",
   "AWS",
   "Canva",
+  "Figma",
   "Adobe Illustrator",
 ];
 

@@ -57,12 +57,12 @@ const Hero = memo(() => {
         </div>
 
         <p className="text-base sm:text-lg md:text-xl lg:text-2xl max-w-3xl text-gray-600  leading-relaxed">
-          I’m a software engineer creating clean, responsive, and accessible web
-          experiences with React, Next.js, Tailwind CSS and MERN.I create
-          professional, scalable, and SEO-friendly websites that establishes a
+          I’m a software engineer creating clean, responsive, and accessible web and mobile apps
+          experiences with React, Next.js, Tailwind CSS, and MERN. I create
+          professional, scalable, and SEO-friendly websites and mobile apps that establishes a
           robust online presence for small businesses through innovative web
-          solutions in Tech, AI, and digital innovation with hands-on experience
-          building scalable web applications, APIs, integrating databases, and
+          and mobile solutions in Tech, AI, and digital innovation with hands-on experience
+          building scalable web and mobile applications, APIs, integrating databases, and
           securing applications with modern authentication methods.
         </p>
 
