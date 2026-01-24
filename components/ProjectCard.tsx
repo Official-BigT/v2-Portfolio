@@ -9,6 +9,9 @@ import { Project } from "@/types/types";
 const ProjectCard = ({ project }: { project: Project }) => {
   const [isExpanded, setIsExpanded] = useState(false);
   const isLongDescription = project.projectDescription.length > 150;
+  
+  // Check if the demo link is internal (starts with /)
+  const isInternalLink = project.demoLink.startsWith('/');
 
   return (
     <div
@@ -27,12 +30,14 @@ const ProjectCard = ({ project }: { project: Project }) => {
         <div className="absolute inset-x-0  bottom-10 flex items-center text-sm justify-center gap-4 z-10 opacity-0 group-hover:opacity-100 transition-all duration-300 ease-in-out">
           <Link
             href={project.demoLink}
-            target="_blank"
-            aria-label="Live Demo"
-            rel="noopener noreferrer"
+            {...(!isInternalLink && {
+              target: "_blank",
+              rel: "noopener noreferrer"
+            })}
+            aria-label={isInternalLink ? "View Case Study" : "Live Demo"}
             className="border-white border-[2px] hover:bg-white text-white hover:text-slate-800 px-3 py-1 rounded-xl font-semibold transform translate-y-4 group-hover:translate-y-0 transition-all duration-300 ease-out shadow-lg"
           >
-            Live Demo
+            {isInternalLink ? "View Case Study" : "Live Demo"}
           </Link>
           {project.githubLink && (
             <Link

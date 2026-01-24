@@ -72,7 +72,24 @@ export const projects: Project[] = [
       "render",
     ],
   },
-  // 2 Crypto Live-Tracker
+  // 2 Spark Event Platform
+  {
+    id: crypto.randomUUID(),
+    projectName: "Spark Event Platform App",
+    projectImage:
+      "https://res.cloudinary.com/dznd7vzlb/image/upload/v1769262076/Login_page_v1_nbd5pu.png",
+    projectDescription: `Spark is an internal company application designed for event networking and coordination. Built with React Native and Expo, it enables attendees to browse schedules, request meetings with sponsors or participants, manage QR-based tickets, and receive real-time notifications. As Frontend Engineer, I implemented the UI across all mobile screens, navigation architecture, state management, and backend API integration.`,
+    demoLink: "/projects/spark",
+    githubLink: "https://github.com/Official-BigT/Spark",
+    tools: [
+      "React Native",
+      "Expo",
+      "TypeScript",
+      "NativeWind",
+      "React Navigation",
+    ],
+  },
+  // 3 Crypto Live-Tracker
   {
     id: crypto.randomUUID(),
     projectName: "Crypto Live-Tracker",
@@ -83,7 +100,7 @@ export const projects: Project[] = [
     githubLink: "https://github.com/Official-BigT/Crypto_Live-Tracker",
     tools: ["React", "TailwindCSS", "Redux", "react-router"],
   },
-  // 3 Furnishpere
+  // 4 Furnishpere
   {
     id: crypto.randomUUID(),
     projectName: "Furnisphere",
@@ -95,7 +112,7 @@ export const projects: Project[] = [
     githubLink: "https://github.com/Official-BigT/Furnisphere",
     tools: ["NextJS", "TypeScript", "TailwindCSS", "Framer Motion"],
   },
-  // 4 SafeDep Package Insights
+  // 5 SafeDep Package Insights
   {
     id: crypto.randomUUID(),
     projectName: "SafeDep Package Insights",
@@ -106,7 +123,7 @@ export const projects: Project[] = [
     githubLink: "https://github.com/Official-BigT/SafeDep",
     tools: ["NextJS", "React", "TypeScript", "TailwindCSS"],
   },
-  // 5 Forge Gym
+  // 6 Forge Gym
   {
     id: crypto.randomUUID(),
     projectName: "Forge Gym",
@@ -124,7 +141,7 @@ export const projects: Project[] = [
       "Cloudinary",
     ],
   },
-  // 6 v1-Portfolio
+  // 7 v1-Portfolio
   {
     id: crypto.randomUUID(),
     projectName: "v1-Portfolio",

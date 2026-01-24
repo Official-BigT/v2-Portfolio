@@ -34,6 +34,7 @@ import {
   SiHtml5,
   SiLaravel,
   SiRender,
+  SiExpo,
 } from "react-icons/si";
 
 const toolConfig = {
@@ -88,6 +89,10 @@ const toolConfig = {
   chakraui: { Icon: SiChakraui, color: "bg-teal-600", label: "Chakra UI" },
   shadcnui: { Icon: SiShadcnui, color: "bg-gray-900", label: "shadcn/ui" },
   redux: { Icon: SiRedux, color: "bg-purple-700", label: "Redux" },
+  "react native": { Icon: SiReact, color: "bg-cyan-400", label: "React Native" },
+  expo: { Icon: SiExpo, color: "bg-black", label: "Expo" },
+  nativewind: { Icon: SiTailwindcss, color: "bg-cyan-500", label: "NativeWind" },
+  "react navigation": { Icon: SiReactrouter, color: "bg-purple-600", label: "React Navigation" },
 };
 
 const ToolIcon: React.FC<{ tool: string }> = ({ tool }) => {

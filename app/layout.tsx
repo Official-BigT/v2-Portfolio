@@ -101,7 +101,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "Triumph Anya-Nga - Software Developer Portfolio",
     description:
-      "Triumph Anya-Nga - An experienced web developer (Backend heavy) in various technologies for development operations and management. Motivated and detail-oriented Tech and Design enthusiast of a strong foundation in design and software development. Passionate about driving scalable solutions in Tech, AI, and digital innovation with hands-on experience building scalable web applications, APIs, integrating databases, and securing applications with modern authentication methods. I help convert ideas and insights into meaningful and purposeful products.",
+      "Triumph Anya-Nga - An experienced software developer (Backend heavy) in various technologies for development operations and management. Motivated and detail-oriented Tech and Design enthusiast of a strong foundation in design and software development. Passionate about driving scalable solutions in Tech, AI, and digital innovation with hands-on experience building scalable web applications, APIs, integrating databases, and securing applications with modern authentication methods. I help convert ideas and insights into meaningful and purposeful products.",
     creator: "@un_kn0wnt",
   },
 };
