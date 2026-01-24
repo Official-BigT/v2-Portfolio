@@ -12,7 +12,20 @@ export const experiences: JobExperience[] = [
       `Developed and maintained responsive, high-performance user interfaces for Spark's mobile assets, including the home page, ticketing and profile screens, core frontend platform, driving user engagement and brand consistency.`,
       `Collaborated closely with backend engineers and UI/UX designers to ensure seamless integration and consistency across the product experience.`,
     ],
-  },  {
+  },
+  {
+    occupation: "Freelance Frontend Engineer",
+    companyName: "ODS",
+    dateStart: "O2/2022",
+    dateEnd: "Till Date",
+    responsibilities: [
+      `Integrated AI-driven matchmaking features into the frontend platform, improving recommendation accuracy and enhancing customer satisfaction.`,
+      `Implemented secure authentication systems and protected route logic to ensure user privacy and platform security.`,
+      `Developed and maintained responsive, high-performance user interfaces for ODS's web assets, including the landing page, blog, and core frontend platform, driving user engagement and brand consistency.`,
+      `Collaborated closely with backend engineers and UI/UX designers to ensure seamless integration and consistency across the product experience.`,
+    ],
+  },
+  {
     occupation: "Fullstack Developer with AI skills",
     companyName: "GoMyCode NG.",
     dateStart: "03/2025",
