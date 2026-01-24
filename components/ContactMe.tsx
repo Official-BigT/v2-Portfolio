@@ -4,9 +4,7 @@ import React from "react";
 import Button from "./Button";
 import { SocialIcon } from "react-social-icons";
 
-type Props = {};
-
-const ContactMe = (props: Props) => {
+const ContactMe = () => {
   const handleClick = () => {
     const subject = encodeURIComponent("Hey Triumph, I saw your portfolio!");
     const body = encodeURIComponent(

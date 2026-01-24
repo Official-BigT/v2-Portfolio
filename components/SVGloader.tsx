@@ -13,6 +13,7 @@ const SVGLoader = () => {
     setTimeout(() => {
       requestAnimationFrame(animate);
     }, 500);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   const animate = (timestamp: number | undefined) => {

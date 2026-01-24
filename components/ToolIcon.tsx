@@ -1,6 +1,4 @@
-// @ts-nocheck
 import React from "react";
-import { render } from "react-dom";
 import {
   SiNextdotjs,
   SiTypescript,
@@ -17,7 +15,6 @@ import {
   SiDaisyui,
   SiUnsplash,
   SiSanity,
-  SiOpenai,
   SiCss3,
   SiNetlify,
   SiVercel,
@@ -99,12 +96,18 @@ const ToolIcon: React.FC<{ tool: string }> = ({ tool }) => {
   const iconSize = 20;
   const baseClassName = "rounded-full h-8 w-8 p-1 text-white";
 
-  const config = toolConfig[tool.toLowerCase()];
+  const config = toolConfig[tool.toLowerCase() as keyof typeof toolConfig];
 
   if (config) {
     const { Icon, color, label } = config;
+    const IconComponent = Icon as React.ComponentType<{
+      size?: number;
+      className?: string;
+      title?: string;
+      "aria-label"?: string;
+    }>;
     return (
-      <Icon
+      <IconComponent
         size={iconSize}
         className={`${baseClassName} ${color}`}
         title={label}

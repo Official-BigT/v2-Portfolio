@@ -88,7 +88,7 @@ const ProjectsPage = () => {
         className="grid grid-cols-1 md:grid-cols-2 gap-10"
         variants={containerVariants}
       >
-        {projects.map((project, index) => (
+        {projects.map((project) => (
           <motion.div
             key={project.id}
             variants={itemVariants}

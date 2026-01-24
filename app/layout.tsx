@@ -2,7 +2,6 @@ import "./globals.css";
 import NavBar from "@/components/NavBar";
 import Script from "next/script";
 import { Outfit } from "next/font/google";
-import dynamic from "next/dynamic";
 import SmoothScrolling from "@/components/SmoothScrolling";
 import SVGLoader from "@/components/SVGloader";
 
