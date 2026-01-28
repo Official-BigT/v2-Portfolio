@@ -39,9 +39,9 @@ const outfit = Outfit({
 export const metadata = {
   viewport: { width: "device-width", initialScale: 1 },
   title: "Triumph Anya-Nga - Software Engineer Portfolio",
-  verification: {
-    google: "ltfOnPx-NMzt2vBROfh-jAQr5R-U7ynE-3t3kmMTJGo",
-  },
+  // verification: {
+  //   google: "ltfOnPx-NMzt2vBROfh-jAQr5R-U7ynE-3t3kmMTJGo",
+  // },
   alternates: {
     canonical: "/",
     languages: {
@@ -54,12 +54,14 @@ export const metadata = {
   keywords: [
     "Triumph Anya-Nga",
     "BigT",
+    "Unkn0wnT",
     "Lagos",
     "Port-Harcourt",
     "Nigeria",
     "HTML/CSS",
     "JavaScript",
     "React",
+    "React Native",
     "Tailwind CSS",
     "Typescript",
     "Next.js",
@@ -68,6 +70,7 @@ export const metadata = {
     "Frontend Engineer",
     "Backend Developer",
     "Web development",
+    "Mobile development",
     "Frontend development",
     "Frontend developer",
     "Backend development",
@@ -117,18 +120,18 @@ export default function RootLayout({
         <link rel="preconnect" href="https://www.googletagmanager.com" />
       </head>
 
-      <Script
+      {/* <Script
         strategy="lazyOnload"
         src="https://www.googletagmanager.com/gtag/js?id=G-2PKP3NR2VS"
-      />
-      <Script id="google-analytics" strategy="lazyOnload">
+      /> */}
+      {/* <Script id="google-analytics" strategy="lazyOnload">
         {`
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
           gtag('config', 'G-2PKP3NR2VS');
         `}
-      </Script>
+      </Script> */}
 
       <body className="antialiased overflow-x-hidden bg-[#ebebf3]">
         <SVGLoader/>
