@@ -14,7 +14,7 @@ export const experiences: JobExperience[] = [
     ],
   },
   {
-    occupation: "Freelance Frontend Engineer",
+    occupation: "Freelance Software Engineer",
     companyName: "ODS",
     dateStart: "O2/2022",
     dateEnd: "Till Date",

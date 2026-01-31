@@ -28,7 +28,7 @@ const ContactMe = () => {
         className="lg:space-y-20 pb-40 lg:pb-10 xl:space-y-1 flex flex-col items-center justify-start md:max-w-2xl lg:max-w-3xl max-w-3xl tracking-wide text-center font-normal xl:text"
       >
         <p className="text-sm my-3 xl:mb-16 xl:text-xl  p-5 text-start md:text-center md:text-xl lg:text-3xl ">
-          Ready to take your web projects to the next{" "}
+          Ready to take your web/mobile projects to the next{" "}
           <span className="underline decoration-black decoration-2">level</span>
           ? <br /> Let's collaborate and create exceptional user experiences
           together.
@@ -51,7 +51,7 @@ const ContactMe = () => {
           network="linkedin"
           bgColor="transparent"
           fgColor="#0077b5"
-          url="#"
+          url="https://www.linkedin.com/in/unkn0wnt"
           target="_blank"
           className="h-2 w-2 filter grayscale  hover:filter-none hover:animate-pulse transition duration-200 ease-in-out"
         />
@@ -98,7 +98,7 @@ const ContactMe = () => {
       </div>
       <p className="text-xs tracking-wide font-normal">
         Created by
-        <span className="font-semibold"> BigT</span> @2025
+        <span className="font-semibold"> Unkn0wnT</span> @2026
       </p>
     </footer>
   );
